@@ -1,17 +1,633 @@
-<!doctype html>
-<html lang="id">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>NovaVision Lab</title>
-  <style>body{font-family:system-ui;margin:0;background:#eef6ff;color:#153c5d}main{max-width:720px;margin:72px auto;padding:32px;background:white;border-radius:18px}.tag{color:#1478b8;font-weight:700}</style>
-</head>
-<body>
-  <main>
-    <p class="tag">MLOps Lab · Frontend</p>
-    <h1>Halo dari GitHub Pages!</h1>
-    <p>Halaman ini dikirim otomatis oleh GitHub Actions.</p>
-    <p>Perubahan kode → commit → push → deploy.</p>
-  </main>
-</body>
-</html>
+<!DOCTYPE html>
+
+<html lang="id"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base { html, body { margin: 0; padding: 0; } body { overscroll-behavior: none; } main > :first-child { margin-top: 0 !important; } main > :last-child { margin-bottom: 0 !important; } } ::-webkit-scrollbar { display: none; }</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "inverse-surface": "#30312f", "on-surface-variant": "#434844", "inverse-primary": "#b6ccbc", "secondary": "#4d661c", "outline": "#737873", "on-secondary": "#ffffff", "error": "#ba1a1a", "on-error": "#ffffff", "primary-container": "#14261c", "surface": "#fbf9f6", "primary": "#010f07", "on-secondary-fixed-variant": "#364e03", "surface-tint": "#4f6356", "primary-fixed": "#d2e8d8", "inverse-on-surface": "#f2f0ed", "on-tertiary-fixed-variant": "#3a4858", "on-primary": "#ffffff", "on-primary-fixed": "#0d1f15", "tertiary": "#000d1a", "tertiary-container": "#152332", "on-error-container": "#93000a", "on-tertiary-fixed": "#0e1d2b", "surface-container-highest": "#e4e2df", "on-tertiary": "#ffffff", "on-secondary-fixed": "#131f00", "secondary-container": "#ceee93", "surface-container": "#efeeeb", "error-container": "#ffdad6", "primary-fixed-dim": "#b6ccbc", "on-primary-fixed-variant": "#384b3f", "surface-container-low": "#f5f3f0", "on-background": "#1b1c1a", "tertiary-fixed-dim": "#b9c8db", "surface-dim": "#dbdad7", "secondary-fixed-dim": "#b3d17a", "on-primary-container": "#7a8e81", "surface-container-high": "#eae8e5", "tertiary-fixed": "#d5e4f8", "on-tertiary-container": "#7c8b9c", "background": "#fbf9f6", "surface-variant": "#e4e2df", "outline-variant": "#c3c8c2", "on-surface": "#1b1c1a", "secondary-fixed": "#ceee93", "on-secondary-container": "#536d22", "surface-container-lowest": "#ffffff", "surface-bright": "#fbf9f6" }, "borderRadius": { "DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px" }, "spacing": { "space-3xl": "6rem", "space-2xl": "4rem", "space-lg": "1.5rem", "space-md": "1rem", "space-xl": "2.5rem", "gutter-mobile": "1rem", "margin": "3rem", "margin-mobile": "1.25rem", "space-xs": "0.25rem", "gutter": "1.5rem", "space-sm": "0.5rem" }, "fontFamily": { "headline-lg-mobile": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "title-sm": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "display-hero-mobile": ["Plus Jakarta Sans"], "title-md": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"], "body-sm": ["Plus Jakarta Sans"], "headline-md": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"], "display-hero": ["Plus Jakarta Sans"], "label-sm": ["Plus Jakarta Sans"] }, "fontSize": { "headline-lg-mobile": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" }], "title-sm": ["16px", { "lineHeight": "24px", "letterSpacing": "-0.005em", "fontWeight": "600" }], "headline-sm": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.015em", "fontWeight": "600" }], "display-hero-mobile": ["38px", { "lineHeight": "44px", "letterSpacing": "-0.025em", "fontWeight": "800" }], "title-md": ["20px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "headline-lg": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.025em", "fontWeight": "700" }], "body-sm": ["13px", { "lineHeight": "20px", "fontWeight": "400" }], "headline-md": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "body-md": ["15px", { "lineHeight": "24px", "fontWeight": "400" }], "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" }], "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }], "display-hero": ["64px", { "lineHeight": "72px", "letterSpacing": "-0.03em", "fontWeight": "800" }], "label-sm": ["10px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "700" }] } } } };</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 w-full z-50 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-[1200px] mx-auto px-6 lg:px-12 flex items-center justify-between gap-4"><div class="flex items-center gap-3 shrink-0"><img alt="Artisan bakery logo mark featuring a warm golden croissant and wheat ear combined with a subtle Telegram paper plane or smart spark icon, minimalist, warm amber and terracotta tones, clean circular badge outline. Design context: - Primary color: #8a4b1a - Font: plusJakartaSans - Mode: light - Roundness: rounded-md . The logo should be visually consistent with these brand tokens." class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1UBexEdNh4R02gyQnHYNbcJ7vAjU7rgsDYq8k35GiBADyNneJne744SAUb3FL__oQXI4akWsA60tpLnS7Bj1bcvgJOpHQTl0rY3V0ABVrHWlis9BBQIx9xzoakK-6-1jAlTtA2eU-LMMtZJvPlexQZ-_QeYdrJwXmUrK8W3qOheGmOQY-2pE3IkdRyNRd6zUlqL6cGuOVAtp_UHNihidnachKvV540gxEmdSem-tzaGP9hYqYhgNAG7qg"/><a class="font-title-md text-title-md text-primary tracking-tight font-bold" data-path="tentang-kami" href="#">Ca’Bakery</a></div><nav class="hidden xl:flex items-center gap-1 bg-surface-container-low px-2 py-1.5 rounded-full" data-active-classes="bg-surface-container-high text-on-surface font-title-sm"><a aria-current="page" class="px-4 py-2 rounded-full transition-all bg-surface-container-high text-on-surface font-title-sm" data-path="tentang-kami" href="#">Tentang Kami</a><a class="px-4 py-2 rounded-full font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all" data-path="menu-kue-artisan" href="#">Menu Kue Artisan</a><a class="px-4 py-2 rounded-full font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all" data-path="teknologi-ai-dan-bot" href="#">Teknologi AI &amp; Bot</a><a class="px-4 py-2 rounded-full font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all" data-path="ulasan-pelanggan" href="#">Ulasan Pelanggan</a><a class="px-4 py-2 rounded-full font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all" data-path="faq" href="#">FAQ</a></nav><div class="flex items-center gap-3 shrink-0"><a class="hidden sm:inline-flex items-center justify-center px-4 py-2.5 rounded-full font-label-lg text-label-lg text-primary bg-surface-container hover:bg-surface-container-high hover:text-on-surface transition-all" href="https://t.me/cabakery_bot" rel="noopener noreferrer" target="_blank">Coba Bot Telegram</a><a class="inline-flex items-center justify-center px-5 py-2.5 rounded-full font-label-lg text-label-lg text-on-primary bg-primary-container hover:bg-primary transition-all shadow-[0_4px_12px_rgba(20,38,28,0.12)]" data-path="pesan-kue-sekarang" href="#">Pesan Kue Sekarang</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-80px)]"><div class="flex flex-col w-full">
+<!-- Top Decorative Micro-Notification Strip -->
+<div class="w-full bg-secondary-container/40 py-2.5 px-4 text-center">
+<div class="max-w-[1200px] mx-auto flex items-center justify-center gap-2 font-label-md text-label-md text-on-secondary-container">
+<span class="inline-flex w-2 h-2 rounded-full bg-secondary animate-pulse"></span>
+<span class="font-bold">Batch Subuh Selesai:</span> 180 boks Brownies &amp; Talam Ubi segar siap dikirim hari ini sebelum 11.00 WIB.
+      <a class="underline font-bold hover:text-primary transition-colors ml-1" href="#katalog">Amankan Pesanan</a>
+</div>
+</div>
+<!-- HERO SECTION: Editorial Minimalism + Hand-Drawn Highlights -->
+<section class="relative w-full overflow-hidden pt-12 pb-20 lg:pt-16 lg:pb-28">
+<div class="max-w-[1200px] mx-auto px-6 lg:px-12 flex flex-col items-center text-center">
+<!-- Overline Pill Badge -->
+<div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-surface-container-high shadow-sm mb-6">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+<span class="font-label-md text-label-md text-primary font-semibold tracking-wide">
+          🌱 Artisan Bakehouse × Smart Telegram Automation
+        </span>
+</div>
+<!-- Main Headline with Hand-Drawn Highlights -->
+<div class="relative max-w-4xl mx-auto mb-8">
+<h1 class="font-display-hero text-display-hero-mobile md:text-display-hero text-primary tracking-tight font-extrabold leading-[1.1] md:leading-[1.12]">
+          Kue Tradisional &amp; Artisan yang 
+          <span class="relative inline-block px-3 py-1 mx-1 text-primary">
+<span class="relative z-10">Dipanggang Segar</span>
+<!-- Hand-drawn sky blue oval SVG loop -->
+<svg class="absolute -inset-2 w-[calc(100%+16px)] h-[calc(100%+16px)] text-tertiary-fixed pointer-events-none z-0 transform -rotate-1" fill="none" preserveaspectratio="none" viewbox="0 0 340 90">
+<path d="M12 45 C 10 18, 120 8, 280 12 C 330 14, 335 48, 290 70 C 210 92, 40 85, 20 60 C 8 45, 45 32, 110 28" opacity="0.85" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.5"></path>
+</svg>
+</span>
+          Tiap Subuh, Dipandu 
+          <span class="relative inline-block font-extrabold text-primary">
+            AI Presisi.
+            <!-- Lime marker underline -->
+<svg class="absolute -bottom-1 left-0 w-full h-3 text-secondary-container pointer-events-none -z-0" fill="none" preserveaspectratio="none" viewbox="0 0 200 18">
+<path d="M4 11 C 45 4, 140 14, 196 6" stroke="currentColor" stroke-linecap="round" stroke-width="6"></path>
+</svg>
+</span>
+</h1>
+</div>
+<!-- Subtitle -->
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto mb-10 leading-relaxed">
+        Dari Brownies Bites lumer hingga Talam Ubi otentik. Dibuat dengan bahan murni tanpa pengawet sintesis, diproduksi pas setiap hari berkat estimasi cerdas <em>Ca’Bakery Sales Bot</em>.
+      </p>
+<!-- Signature Triple-Pill Capsule (Direct visual parity to ref capsule) -->
+<div class="inline-flex flex-wrap sm:flex-nowrap items-center justify-center gap-2 p-2 rounded-full bg-surface-container shadow-md mb-8">
+<a class="w-full sm:w-auto px-7 py-3 rounded-full bg-primary-container text-on-primary font-label-lg text-label-lg font-bold shadow-sm hover:bg-primary transition-all text-center" href="#pesan">
+          Pesan Kue Hari Ini
+        </a>
+<a class="w-full sm:w-auto px-6 py-3 rounded-full bg-tertiary-fixed text-tertiary font-label-lg text-label-lg font-semibold hover:bg-tertiary-fixed/80 transition-all text-center" href="#katalog">
+          Lihat Katalog &amp; Harga
+        </a>
+<a class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-surface text-primary font-label-lg text-label-lg font-semibold hover:bg-surface-container-high transition-all text-center" href="https://t.me/cabakery_bot" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">bolt</span>
+<span>Coba Bot Telegram</span>
+</a>
+</div>
+<!-- Trust Badges -->
+<div class="flex flex-wrap items-center justify-center gap-4 text-on-surface-variant font-label-md text-label-md">
+<span class="inline-flex items-center gap-1.5 font-bold text-on-surface">
+<span class="material-symbols-outlined text-amber-500 text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+          4.9/5 dari 1.200+ Pesanan
+        </span>
+<span class="text-outline-variant">•</span>
+<span class="inline-flex items-center gap-1">
+<span class="material-symbols-outlined text-secondary text-[18px]">recycling</span>
+          0% Kue Terbuang (Zero Waste)
+        </span>
+<span class="text-outline-variant">•</span>
+<span class="inline-flex items-center gap-1">
+<span class="material-symbols-outlined text-secondary text-[18px]">verified</span>
+          100% Higienis &amp; Santan Asli
+        </span>
+</div>
+<!-- Reference Hero Companion Visual Showcase -->
+<div class="mt-14 w-full max-w-5xl rounded-lg bg-surface-container-low p-4 sm:p-6 md:p-8 shadow-sm">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
+<!-- Reference Visual Card -->
+<div class="lg:col-span-6 flex flex-col items-center justify-center">
+<div class="relative w-full max-w-sm rounded-lg overflow-hidden shadow-md bg-surface">
+<img alt="Ca'Bakery signature artisanal presentation and brand language visual" class="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCghgJpPo-y_YR3WUfXHEexgKmWZTBKMpNJFHo4OuYUbKFkzU3eb6cMun8Tv0XwIQ1KGdGm0v3h4XkAwIkXYibSW3Q6X-c-NixVaqoa8CwSinZFlYOzyi2sJEcSAQ2Xugb2xO5u108PmwTlmfPi6sU7xgF8H_qzwHJvOw_-MrX6PNPSt9qIIroCt1dtkVV8kSONjit24YjVTiru6vxDAZYJN4M_6l0TNF3hsnJ-zqjZDzZQEkQuVpV89TYmsGkPpIUrjg"/>
+<div class="absolute bottom-3 left-3 right-3 bg-surface/95 backdrop-blur-md px-3.5 py-2.5 rounded-full flex items-center justify-between text-left shadow-sm">
+<div class="flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary"></span>
+<span class="font-label-sm text-label-sm font-bold text-primary">Fresh Oven Batch #408</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">04.15 WIB Selesai</span>
+</div>
+</div>
+</div>
+<!-- Editorial Highlight Narrative -->
+<div class="lg:col-span-6 text-left flex flex-col justify-center">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-md text-label-md w-fit mb-3">
+<span>Sistem Produksi Presisi</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary font-bold tracking-tight mb-3">
+              Mengapa Roti &amp; Kue Kami Selalu Terasa Berbeda?
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6 leading-relaxed">
+              Bukan hanya tentang tepung Jepang atau cokelat Belgia berkualitas tinggi. Kami menghilangkan masalah kue simpanan lama dengan menyinkronkan jam aduk dapur bersama algoritma pesanan Telegram. Setiap gigitan adalah kesegaran murni yang baru berumur beberapa jam.
+            </p>
+<div class="grid grid-cols-2 gap-3">
+<div class="bg-surface rounded-md p-3.5 shadow-sm">
+<div class="font-headline-sm text-headline-sm text-primary font-extrabold">04:00</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Mulai Panggang &amp; Kukus Subuh</div>
+</div>
+<div class="bg-surface rounded-md p-3.5 shadow-sm">
+<div class="font-headline-sm text-headline-sm text-secondary font-extrabold">09:30</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Pengiriman Batch Pagi Tiba di Pintu Anda</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- LIVE BOT SIMULATOR & INTERACTIVE WORKFLOW PREVIEW -->
+<section class="w-full bg-surface-container py-space-2xl">
+<div class="max-w-[1200px] mx-auto px-6 lg:px-12">
+<div class="text-center max-w-2xl mx-auto mb-12">
+<span class="px-3.5 py-1 rounded-full bg-tertiary-fixed text-tertiary font-label-md text-label-md font-bold uppercase tracking-wider inline-block mb-3">
+          Jakob’s Mental Model • Dua Sudut Pandang
+        </span>
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-primary font-bold tracking-tight">
+          Simpel untuk Pembeli, Sangat Cerdas untuk Dapur
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-3">
+          Pelanggan cukup memesan santai via chat, sementara di balik layar sistem AI kami menghitung kebutuhan tepung dan loyang hingga gram terkecil.
+        </p>
+</div>
+<!-- Split Interactive Cards -->
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
+<!-- CARD A: Sisi Pelanggan (Customer Experience) -->
+<div class="bg-surface rounded-lg p-6 sm:p-8 flex flex-col justify-between shadow-sm">
+<div>
+<div class="flex items-center justify-between mb-6 pb-4 bg-surface-container-low px-4 py-3 rounded-full">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-secondary-container flex items-center justify-center text-on-secondary-container">
+<span class="material-symbols-outlined text-[18px]">shopping_bag</span>
+</div>
+<div>
+<h4 class="font-title-sm text-title-sm text-primary font-bold">Pengalaman Pembeli</h4>
+<p class="font-label-sm text-label-sm text-on-surface-variant">WhatsApp / Telegram Flow</p>
+</div>
+</div>
+<span class="px-3 py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm font-bold">Instan &amp; Ramah</span>
+</div>
+<!-- Chat simulator UI -->
+<div class="space-y-3 font-body-sm text-body-sm mb-6">
+<div class="flex justify-end">
+<div class="bg-secondary text-on-secondary py-2.5 px-4 rounded-2xl rounded-tr-none max-w-[80%] shadow-sm">
+                  Halo Ca'Bakery! Mau pesan 2 boks Brownies Bites &amp; 1 boks Talam Ubi untuk meeting jam 10 pagi ini.
+                </div>
+</div>
+<div class="flex justify-start">
+<div class="bg-surface-container-high text-on-surface py-2.5 px-4 rounded-2xl rounded-tl-none max-w-[85%] shadow-sm">
+<p class="font-bold text-primary mb-1">🤖 Ca’Bakery Assistant:</p>
+                  Siap Kak Rian! Batch pagi masih tersedia 8 boks. Total Rp 135.000. Kue dikirim langsung hangat dari dapur pkl 08.45 WIB. Konfirmasi sekarang?
+                </div>
+</div>
+<div class="flex justify-end">
+<div class="bg-secondary text-on-secondary py-2 px-3 rounded-full text-label-md font-bold">
+                  ✓ Konfirmasi &amp; Bayar QRIS
+                </div>
+</div>
+</div>
+</div>
+<div class="pt-4 bg-surface-container-low p-4 rounded-md">
+<span class="font-label-md text-label-md text-secondary font-bold uppercase tracking-wider block mb-1">Hasil Bagi Anda</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Tidak perlu antre, tidak takut kehabisan menu favorit di etalase toko, pasti fresh dari oven.</p>
+</div>
+</div>
+<!-- CARD B: Dapur Presisi (Kitchen Sales Bot Intelligence) -->
+<div class="bg-surface rounded-lg p-6 sm:p-8 flex flex-col justify-between shadow-sm">
+<div>
+<div class="flex items-center justify-between mb-6 pb-4 bg-surface-container-low px-4 py-3 rounded-full">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-tertiary text-on-tertiary flex items-center justify-center">
+<span class="material-symbols-outlined text-[18px]">smart_toy</span>
+</div>
+<div>
+<h4 class="font-title-sm text-title-sm text-primary font-bold">AI Kitchen Sales Bot</h4>
+<p class="font-label-sm text-label-sm text-on-surface-variant">Terminal Pemilik &amp; Baker</p>
+</div>
+</div>
+<span class="px-3 py-1 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm font-bold">Automated</span>
+</div>
+<!-- Terminal Bot UI -->
+<div class="bg-primary text-primary-fixed-dim rounded-md p-4 font-mono text-body-sm space-y-2 mb-6">
+<div class="flex items-center gap-2 text-secondary-container">
+<span class="text-secondary-fixed">$</span>
+<span class="font-bold">/prediksi_batch --tanggal esok</span>
+</div>
+<p class="text-on-primary text-xs leading-5">
+                [AI Model: Prophet Time-Series]<br/>
+                Target Brownies: <span class="text-secondary-fixed font-bold">64 Box</span> (Akurasi 96%)<br/>
+                Target Talam Ubi: <span class="text-secondary-fixed font-bold">42 Box</span><br/>
+                Saran Bahan: Santan Murni 12.5L, Ubi Ungu 18kg.
+              </p>
+<div class="pt-1 text-on-primary-container text-xs">
+                &gt; Batch panggang subuh otomatis dialokasikan ke 3 rute kurir. 0 sisa stok sisa siang.
+              </div>
+</div>
+</div>
+<div class="pt-4 bg-surface-container-low p-4 rounded-md">
+<span class="font-label-md text-label-md text-primary font-bold uppercase tracking-wider block mb-1">Hasil Bagi Lingkungan &amp; Rasa</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Efisiensi 100%, tanpa makanan terbuang, menjaga harga tetap jujur dengan bahan baku kelas satu.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ARTISANAL MENU SHOWCASE (Miller's Law - 5 Core Signature SKUs) -->
+<section class="w-full py-space-3xl" id="katalog">
+<div class="max-w-[1200px] mx-auto px-6 lg:px-12">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
+<div>
+<div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-md text-label-md font-bold mb-3">
+<span>5 Menu Pilihan Utama</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-primary font-bold tracking-tight">
+            Karya Adonan Dapur Subuh
+          </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 max-w-xl">
+            Sesuai prinsip <em>Hick’s Law</em>: Kami membatasi katalog hanya pada 5 produk terbaik yang disempurnakan setiap pagi agar Anda menikmati kualitas rasa tanpa kompromi.
+          </p>
+</div>
+<div class="flex items-center gap-2 self-start md:self-end">
+<span class="font-label-md text-label-md text-on-surface-variant">Filter Kategori:</span>
+<span class="px-3.5 py-1.5 rounded-full bg-primary text-on-primary font-label-sm text-label-sm font-semibold">Semua (5)</span>
+<span class="px-3.5 py-1.5 rounded-full bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm">Roti &amp; Brownies</span>
+<span class="px-3.5 py-1.5 rounded-full bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm">Talam Seri</span>
+</div>
+</div>
+<!-- Menu Grid: 5 Handcrafted Bento Cards -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- SKU 01: Brownies Bites -->
+<div class="group bg-surface-container-lowest rounded-lg p-5 flex flex-col justify-between shadow-sm hover:shadow-md transition-all">
+<div>
+<div class="relative h-48 w-full rounded-md overflow-hidden bg-surface-container mb-4">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-105" data-alt="Fudgy dark chocolate brownies bites stacked artistically on natural craft paper with cocoa powder dusting, warm natural morning light, artisan bakery styling, rich dark tones." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuA0iqnbqb0UnjpBpBC8toS5-HMhgg4fOFOcn4nrp4mx4Bxw37HjYi0baXl0RFyd3hAIiHX43SU3kTXBcdOVpCdDxUhMsjVyEVOWFm3chFS_PHhBjCpOshr1Z9MMnYvPtB_P8fsHHKPluvxtqzdDhPXqeUGIQTb_h_82kmfpjEYwZZeZGOO1wd-S_f_twb1wE0RkVBPp_09Gcus6ZQsL9c1QjUI82n0-WcIv7wdtrQuv6aArgQTNZ6xi')"></div>
+<div class="absolute top-3 left-3 px-3 py-1 rounded-full bg-secondary text-on-secondary font-label-sm text-label-sm font-bold shadow-sm">
+                Bestseller 🍫
+              </div>
+<div class="absolute bottom-3 right-3 px-2.5 py-0.5 rounded-full bg-surface/90 backdrop-blur font-label-sm text-label-sm text-primary font-medium">
+                Panggang Subuh
+              </div>
+</div>
+<div class="flex items-start justify-between gap-2 mb-2">
+<h3 class="font-title-md text-title-md text-primary font-bold">Brownies Bites Fudgy</h3>
+<span class="font-title-sm text-title-sm text-secondary font-extrabold whitespace-nowrap">Rp 48.000</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4 leading-relaxed">
+              Potongan brownies lumer dengan cokelat Belgia 70%, renyah berkilau di atas, lembut legit di tengah. Tahan 4 hari di suhu ruang.
+            </p>
+</div>
+<div class="pt-3 flex items-center justify-between bg-surface-container-low px-4 py-2.5 rounded-full">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">Isi: 16 Potong Mini</span>
+<button class="px-4 py-1.5 rounded-full bg-primary text-on-primary font-label-sm text-label-sm font-bold hover:bg-secondary transition-colors" onclick="alert('Brownies Bites ditambahkan ke keranjang')">
+              + Pesan
+            </button>
+</div>
+</div>
+<!-- SKU 02: Donat Artisan Klasik -->
+<div class="group bg-surface-container-lowest rounded-lg p-5 flex flex-col justify-between shadow-sm hover:shadow-md transition-all">
+<div>
+<div class="relative h-48 w-full rounded-md overflow-hidden bg-surface-container mb-4">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-105" data-alt="Golden artisan brioche ring doughnuts dusted with natural vanilla sugar crystals, placed in a rustic wooden tray, warm morning daylight, high-end bakery aesthetic with creamy palette." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBYZjN3EEuxWYU54FoENovEO2XxGEMn8-beTT-DA6C5Kn1PrwhII37E9ntv9ntessgywrA5q9sH7F9enkQIhm8JGYKUfVifx7dpLouvzzH1Rf54_2oKmTodqXfSHO-lKSlBiRTBMMsFOS78Wxw_kbMSvi88AWaeQU7Eaf0Sw97b3wI3huyHkGaZanzw5Pg45uQyYPPg7DRgyw96EQs-BBVUlePsl8SoyR1-QfRI_UqB2gYYav1Sv7Gc')"></div>
+<div class="absolute top-3 left-3 px-3 py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm font-bold shadow-sm">
+                Favorit Pagi 🍩
+              </div>
+<div class="absolute bottom-3 right-3 px-2.5 py-0.5 rounded-full bg-surface/90 backdrop-blur font-label-sm text-label-sm text-primary font-medium">
+                Goreng 05.00 WIB
+              </div>
+</div>
+<div class="flex items-start justify-between gap-2 mb-2">
+<h3 class="font-title-md text-title-md text-primary font-bold">Donat Artisan Klasik</h3>
+<span class="font-title-sm text-title-sm text-secondary font-extrabold whitespace-nowrap">Rp 35.000</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4 leading-relaxed">
+              Adonan brioche ragi alami difermentasi 18 jam. Tekstur selembut sutra dengan taburan gula tebu vanila asli Madagaskar.
+            </p>
+</div>
+<div class="pt-3 flex items-center justify-between bg-surface-container-low px-4 py-2.5 rounded-full">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">Isi: 4 Buah Jumbo</span>
+<button class="px-4 py-1.5 rounded-full bg-primary text-on-primary font-label-sm text-label-sm font-bold hover:bg-secondary transition-colors" onclick="alert('Donat Artisan ditambahkan ke keranjang')">
+              + Pesan
+            </button>
+</div>
+</div>
+<!-- SKU 03: Talam Ubi Ungu Tradisional -->
+<div class="group bg-surface-container-lowest rounded-lg p-5 flex flex-col justify-between shadow-sm hover:shadow-md transition-all">
+<div>
+<div class="relative h-48 w-full rounded-md overflow-hidden bg-surface-container mb-4">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-105" data-alt="Traditional Indonesian Kue Talam Ubi purple sweet potato two-layered steamed cake, glossy white coconut milk cream top, cut into neat diamond slices on banana leaf, soft lighting." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBJnPyIsKIIwmEwM2maP4tNhO4NzxaVezgPmfAAQlOu4P0ePZHTokOjRc8DkPZJZ-uul8eWL9gWseUzcH5zCdiRUCdQiqnQ6ZWocYu5KC9Bs7vPDGwdwq51z1h8oA_3KI0BGIIB_VbZX4Eo7saSsakrzybrAk0Bry1bZJyI89IisqrzxThcM-OdVns0VBZ0hgqOqyyp3da046AXeMqaD1RzNnvo6-0RceLP_hUVDqRSoMoaOjnLb3Zy')"></div>
+<div class="absolute top-3 left-3 px-3 py-1 rounded-full bg-tertiary-fixed text-tertiary font-label-sm text-label-sm font-bold shadow-sm">
+                Resep Warisan 🍠
+              </div>
+<div class="absolute bottom-3 right-3 px-2.5 py-0.5 rounded-full bg-surface/90 backdrop-blur font-label-sm text-label-sm text-primary font-medium">
+                Fresh 24 Jam
+              </div>
+</div>
+<div class="flex items-start justify-between gap-2 mb-2">
+<h3 class="font-title-md text-title-md text-primary font-bold">Talam Ubi Ungu Asli</h3>
+<span class="font-title-sm text-title-sm text-secondary font-extrabold whitespace-nowrap">Rp 42.000</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4 leading-relaxed">
+              Lapisan ubi ungu organik berpadu dengan gurih santan kelapa murni perasan pertama. Tanpa pewarna sintetik, manis lembut alami.
+            </p>
+</div>
+<div class="pt-3 flex items-center justify-between bg-surface-container-low px-4 py-2.5 rounded-full">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">Isi: 8 Potong Boks</span>
+<button class="px-4 py-1.5 rounded-full bg-primary text-on-primary font-label-sm text-label-sm font-bold hover:bg-secondary transition-colors" onclick="alert('Talam Ubi Ungu ditambahkan ke keranjang')">
+              + Pesan
+            </button>
+</div>
+</div>
+<!-- SKU 04: Talam Durian Asli -->
+<div class="group bg-surface-container-lowest rounded-lg p-5 flex flex-col justify-between shadow-sm hover:shadow-md transition-all">
+<div>
+<div class="relative h-48 w-full rounded-md overflow-hidden bg-surface-container mb-4">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-105" data-alt="Artisanal Indonesian Talam Durian dessert cake, golden yellow durian layer with rich white coconut custard top, served on an elegant ceramic plate with pandan leaf garnish, fine dining dessert." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAt0LQPRQz0uVwQCqvvR24cUgGCrFvgQj1xsWe_5OW4ZuyM_BsGfq9opMInruEqk4yg_q0BJgLMbgJTD4NTY79Svl4KED_Ce1h_IxJkEQk8QgJWeFVWLvQxiOLudKzWJLih9nApQKIRv4jyeIc2gRSn29KbfEGmRMwH7Z_Po2n-qOFYIbNWAJ0T8nNHz6byiRhM8BfZRsEqRX7lDK3b_MgcCSYq5drJYj67RjBCshjCXXmYWZjjjiz4')"></div>
+<div class="absolute top-3 left-3 px-3 py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed-variant font-label-sm text-label-sm font-bold shadow-sm">
+                Signature Premium ⭐
+              </div>
+<div class="absolute bottom-3 right-3 px-2.5 py-0.5 rounded-full bg-surface/90 backdrop-blur font-label-sm text-label-sm text-primary font-medium">
+                Durian Medan
+              </div>
+</div>
+<div class="flex items-start justify-between gap-2 mb-2">
+<h3 class="font-title-md text-title-md text-primary font-bold">Talam Durian Sultan</h3>
+<span class="font-title-sm text-title-sm text-secondary font-extrabold whitespace-nowrap">Rp 65.000</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4 leading-relaxed">
+              Menggunakan 100% daging durian Medan segar tanpa essence. Aroma semerbak berpadu gurih santan kukus yang creamy di lidah.
+            </p>
+</div>
+<div class="pt-3 flex items-center justify-between bg-surface-container-low px-4 py-2.5 rounded-full">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">Isi: 6 Potong Boks</span>
+<button class="px-4 py-1.5 rounded-full bg-primary text-on-primary font-label-sm text-label-sm font-bold hover:bg-secondary transition-colors" onclick="alert('Talam Durian ditambahkan ke keranjang')">
+              + Pesan
+            </button>
+</div>
+</div>
+<!-- SKU 05: Talam Labu Kuning -->
+<div class="group bg-surface-container-lowest rounded-lg p-5 flex flex-col justify-between shadow-sm hover:shadow-md transition-all md:col-span-2 lg:col-span-1">
+<div>
+<div class="relative h-48 w-full rounded-md overflow-hidden bg-surface-container mb-4">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-105" data-alt="Traditional Talam Labu yellow pumpkin steamed cake slice, warm amber yellow color with white creamy coconut layer, styled on natural wood background, wholesome organic bakery aesthetic." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBV4sr58DkCNk12EqyXoEaH-qHK4R0ZlUjDqtVzCyrl75GUZlZKSSoK1nEX0IJkQ9eC5pG8SvyC5v9rezAvHO-a59kTCEOr5SM1X3gorJixb9rHsocw51sNrDYs5K97Sxp2T37MaBjRH2_8CVn5ynhBJmRzd3DibmrDBToFCuk_T-_nuIhBDvgiJL1W4HjBOorR0hOg3Hh5thlvRbheCF9LnT9i-LNzf-b_JJZhwH-4sSR1MiehgNKb')"></div>
+<div class="absolute top-3 left-3 px-3 py-1 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm font-bold shadow-sm">
+                Low Sugar Treat 🎃
+              </div>
+<div class="absolute bottom-3 right-3 px-2.5 py-0.5 rounded-full bg-surface/90 backdrop-blur font-label-sm text-label-sm text-primary font-medium">
+                Serat Tinggi
+              </div>
+</div>
+<div class="flex items-start justify-between gap-2 mb-2">
+<h3 class="font-title-md text-title-md text-primary font-bold">Talam Labu Madu</h3>
+<span class="font-title-sm text-title-sm text-secondary font-extrabold whitespace-nowrap">Rp 38.000</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4 leading-relaxed">
+              Labu kuning madu lokal dipadukan dengan daun pandan wangi. Sangat ramah untuk cemilan orang tua dan anak-anak karena rendah gula pasir.
+            </p>
+</div>
+<div class="pt-3 flex items-center justify-between bg-surface-container-low px-4 py-2.5 rounded-full">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">Isi: 8 Potong Boks</span>
+<button class="px-4 py-1.5 rounded-full bg-primary text-on-primary font-label-sm text-label-sm font-bold hover:bg-secondary transition-colors" onclick="alert('Talam Labu Kuning ditambahkan ke keranjang')">
+              + Pesan
+            </button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- WHY CUSTOMERS CHOOSE CA'BAKERY: Dual-Sided Value Proposition -->
+<section class="w-full bg-surface-container-low py-space-2xl">
+<div class="max-w-[1200px] mx-auto px-6 lg:px-12">
+<div class="max-w-3xl mb-12">
+<span class="px-3.5 py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-md text-label-md font-bold uppercase tracking-wider inline-block mb-3">
+          Prinsip Kualitas Kami
+        </span>
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-primary font-bold tracking-tight">
+          Kenapa Pelanggan Lebih Memilih Ca’Bakery Dibanding Toko Roti Konvensional?
+        </h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Pillar 1 -->
+<div class="bg-surface rounded-lg p-8 shadow-sm flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-full bg-secondary-container flex items-center justify-center text-on-secondary-container mb-6">
+<span class="material-symbols-outlined text-[24px]">alarm_on</span>
+</div>
+<h3 class="font-title-md text-title-md text-primary font-bold mb-3">Garansi Kesegaran Subuh</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Panggang dan kukus dimulai pukul 04:00 WIB. Kue yang Anda terima belum genap 6 jam keluar dari dapur. Bukan kue pajangan kemarin yang dihangatkan ulang.
+            </p>
+</div>
+<div class="mt-6 pt-4 text-secondary font-label-md text-label-md font-bold flex items-center gap-1">
+<span>Dapur Subuh Terverifikasi</span>
+<span class="material-symbols-outlined text-[16px]">check_circle</span>
+</div>
+</div>
+<!-- Pillar 2 -->
+<div class="bg-surface rounded-lg p-8 shadow-sm flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-full bg-tertiary-fixed flex items-center justify-center text-tertiary mb-6">
+<span class="material-symbols-outlined text-[24px]">eco</span>
+</div>
+<h3 class="font-title-md text-title-md text-primary font-bold mb-3">Zero Waste &amp; Berkelanjutan</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Dengan estimasi bot presisi, kami memangkas sisa makanan basi hingga 0%. Menghemat biaya operasional, dan keuntungannya dialihkan untuk memakai bahan alami terbaik.
+            </p>
+</div>
+<div class="mt-6 pt-4 text-tertiary font-label-md text-label-md font-bold flex items-center gap-1">
+<span>100% Bebas Limbah Roti</span>
+<span class="material-symbols-outlined text-[16px]">check_circle</span>
+</div>
+</div>
+<!-- Pillar 3 -->
+<div class="bg-surface rounded-lg p-8 shadow-sm flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-full bg-surface-container-high flex items-center justify-center text-primary mb-6">
+<span class="material-symbols-outlined text-[24px]">nutrition</span>
+</div>
+<h3 class="font-title-md text-title-md text-primary font-bold mb-3">100% Bahan Murni Tanpa Esens</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Santan kelapa peras asli dari pasar lokal, ubi ungu kebun Jawa Tengah, dan dark chocolate couverture murni. Tanpa pemanis buatan maupun pengawet kimia.
+            </p>
+</div>
+<div class="mt-6 pt-4 text-primary font-label-md text-label-md font-bold flex items-center gap-1">
+<span>Aman untuk Seluruh Keluarga</span>
+<span class="material-symbols-outlined text-[16px]">check_circle</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SOCIAL PROOF & TESTIMONIALS (Bandwagon Effect) -->
+<section class="w-full py-space-3xl">
+<div class="max-w-[1200px] mx-auto px-6 lg:px-12">
+<div class="text-center max-w-2xl mx-auto mb-14">
+<span class="px-3.5 py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-md text-label-md font-bold uppercase tracking-wider inline-block mb-3">
+          Kata Mereka yang Mencicipi
+        </span>
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-primary font-bold tracking-tight">
+          Dipercaya Lebih dari 1.200 Meja Acara &amp; Sarapan Kantor
+        </h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Review 1 -->
+<div class="bg-surface-container-low rounded-lg p-6 flex flex-col justify-between shadow-sm">
+<div>
+<div class="flex items-center gap-1 text-amber-500 mb-4">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface italic mb-6">
+              "Talam Ubi Ungunya luar biasa lembut, lapisan santan di atasnya gurih asli bukan santan bubuk instan. Pesan 40 box untuk arisan keluarga besar jam 9 pagi sudah sampai dalam kondisi masih hangat."
+            </p>
+</div>
+<div class="flex items-center gap-3 pt-4 bg-surface px-4 py-2.5 rounded-full">
+<div class="w-9 h-9 rounded-full bg-primary-container text-on-primary flex items-center justify-center font-bold text-label-md">
+              DR
+            </div>
+<div>
+<h5 class="font-title-sm text-title-sm text-primary font-bold">Dra. Ratna Dewi</h5>
+<p class="font-label-sm text-label-sm text-on-surface-variant">Kebayoran Baru • Verified Order</p>
+</div>
+</div>
+</div>
+<!-- Review 2 -->
+<div class="bg-surface-container-low rounded-lg p-6 flex flex-col justify-between shadow-sm">
+<div>
+<div class="flex items-center gap-1 text-amber-500 mb-4">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface italic mb-6">
+              "Brownies Bites Ca’Bakery jadi snack wajib weekly all-hands meeting tim tech kami di SCBD. Ordernya gampang banget tinggal chat Telegram bot, invoice keluar otomatis. Teksturnya legit parah!"
+            </p>
+</div>
+<div class="flex items-center gap-3 pt-4 bg-surface px-4 py-2.5 rounded-full">
+<div class="w-9 h-9 rounded-full bg-secondary-container text-on-secondary-container flex items-center justify-center font-bold text-label-md">
+              AP
+            </div>
+<div>
+<h5 class="font-title-sm text-title-sm text-primary font-bold">Andhika Putra</h5>
+<p class="font-label-sm text-label-sm text-on-surface-variant">Product Lead, Fintech • Verified</p>
+</div>
+</div>
+</div>
+<!-- Review 3 -->
+<div class="bg-surface-container-low rounded-lg p-6 flex flex-col justify-between shadow-sm">
+<div>
+<div class="flex items-center gap-1 text-amber-500 mb-4">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface italic mb-6">
+              "Donat Klasik mereka mengingatkan saya sama donat kampung zaman kecil tapi dengan tekstur brioche Prancis yang empuk banget. Gula vanilanya wangi alami dan nggak bikin seret di tenggorokan."
+            </p>
+</div>
+<div class="flex items-center gap-3 pt-4 bg-surface px-4 py-2.5 rounded-full">
+<div class="w-9 h-9 rounded-full bg-tertiary-fixed text-tertiary flex items-center justify-center font-bold text-label-md">
+              SN
+            </div>
+<div>
+<h5 class="font-title-sm text-title-sm text-primary font-bold">Siti Nurhaliza</h5>
+<p class="font-label-sm text-label-sm text-on-surface-variant">Home Baker Enthusiast • Verified</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- INTERACTIVE FAQ ACCORDION (Zeigarnik Effect & Chunking) -->
+<section class="w-full bg-surface-container py-space-2xl">
+<div class="max-w-[800px] mx-auto px-6 lg:px-12">
+<div class="text-center mb-10">
+<span class="px-3.5 py-1 rounded-full bg-surface-container-high text-primary font-label-md text-label-md font-bold uppercase tracking-wider inline-block mb-3">
+          Pertanyaan Umum
+        </span>
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-primary font-bold tracking-tight">
+          Hal yang Kerap Ditanyakan
+        </h2>
+</div>
+<!-- Accordion Elements -->
+<div class="space-y-4" id="faq-container">
+<!-- FAQ 1 -->
+<div class="bg-surface rounded-lg shadow-sm overflow-hidden">
+<button class="w-full px-6 py-5 text-left flex items-center justify-between gap-4 font-title-sm text-title-sm text-primary font-bold focus:outline-none" onclick="toggleFaq('faq-1')">
+<span>Kapan batas waktu pemesanan untuk pengiriman pagi?</span>
+<span class="material-symbols-outlined text-[20px] transition-transform duration-300" id="faq-1-icon">expand_more</span>
+</button>
+<div class="hidden px-6 pb-6 text-on-surface-variant font-body-md text-body-md leading-relaxed" id="faq-1">
+            Untuk pengiriman pagi (batch pertama pkl 08.30 – 10.30 WIB), pesanan sebaiknya dilakukan H-1 maksimal pkl 20.00 WIB atau melalui bot pagi hari sebelum kuota harian habis terisi oleh sistem dapur otomatis.
+          </div>
+</div>
+<!-- FAQ 2 -->
+<div class="bg-surface rounded-lg shadow-sm overflow-hidden">
+<button class="w-full px-6 py-5 text-left flex items-center justify-between gap-4 font-title-sm text-title-sm text-primary font-bold focus:outline-none" onclick="toggleFaq('faq-2')">
+<span>Berapa lama daya tahan kue basah (Talam) dan brownies?</span>
+<span class="material-symbols-outlined text-[20px] transition-transform duration-300" id="faq-2-icon">expand_more</span>
+</button>
+<div class="hidden px-6 pb-6 text-on-surface-variant font-body-md text-body-md leading-relaxed" id="faq-2">
+            Kue Talam murni menggunakan santan kelapa asli tanpa pengawet sintesis, sehingga memiliki daya tahan 24 jam pada suhu ruang sejuk, atau hingga 3 hari jika disimpan di lemari pendingin (chiller). Untuk Brownies Bites tahan hingga 4 hari di suhu ruang dan 10 hari dalam kulkas.
+          </div>
+</div>
+<!-- FAQ 3 -->
+<div class="bg-surface rounded-lg shadow-sm overflow-hidden">
+<button class="w-full px-6 py-5 text-left flex items-center justify-between gap-4 font-title-sm text-title-sm text-primary font-bold focus:outline-none" onclick="toggleFaq('faq-3')">
+<span>Bagaimana Ca’Bakery menjamin kue selalu segar setiap hari?</span>
+<span class="material-symbols-outlined text-[20px] transition-transform duration-300" id="faq-3-icon">expand_more</span>
+</button>
+<div class="hidden px-6 pb-6 text-on-surface-variant font-body-md text-body-md leading-relaxed" id="faq-3">
+            Kami mengandalkan data model prediksi konsumsi pada Telegram bot dapur kami. Jumlah loyang dipanggang secara presisi berdasarkan pesanan masuk dan histori permintaan harian. Tidak ada stok sisa yang dijual kembali keesokan harinya.
+          </div>
+</div>
+<!-- FAQ 4 -->
+<div class="bg-surface rounded-lg shadow-sm overflow-hidden">
+<button class="w-full px-6 py-5 text-left flex items-center justify-between gap-4 font-title-sm text-title-sm text-primary font-bold focus:outline-none" onclick="toggleFaq('faq-4')">
+<span>Apakah bisa memesan untuk snack box acara kantor dalam jumlah besar?</span>
+<span class="material-symbols-outlined text-[20px] transition-transform duration-300" id="faq-4-icon">expand_more</span>
+</button>
+<div class="hidden px-6 pb-6 text-on-surface-variant font-body-md text-body-md leading-relaxed" id="faq-4">
+            Tentu bisa! Kami menyediakan layanan kurasi Snack Box Custom dengan kombinasi pilihan kue artisan dan kue tradisional berdesain boks ramah lingkungan. Silakan hubungi Telegram Concierge kami untuk konsultasi penawaran korporasi.
+          </div>
+</div>
+</div>
+</div>
+</section>
+<!-- BOTTOM IMMERSIVE CTA: Peak-End Rule & Direct Conversion -->
+<section class="w-full py-space-3xl px-6 lg:px-12" id="pesan">
+<div class="max-w-[1200px] mx-auto bg-primary-container text-on-primary rounded-xl p-8 sm:p-12 md:p-16 relative overflow-hidden shadow-xl">
+<!-- Decorative background glow and doodle arcs -->
+<div class="absolute -right-20 -bottom-20 w-96 h-96 rounded-full bg-secondary/20 blur-3xl pointer-events-none"></div>
+<div class="absolute top-0 right-1/4 w-64 h-64 rounded-full bg-tertiary-fixed/10 blur-2xl pointer-events-none"></div>
+<div class="relative z-10 max-w-3xl">
+<div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-surface/10 backdrop-blur text-primary-fixed font-label-md text-label-md font-semibold mb-6">
+<span class="material-symbols-outlined text-[16px] text-secondary-container">local_fire_department</span>
+<span>Batch Besok Subuh Terbuka untuk Pemesanan</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-primary font-bold tracking-tight mb-6">
+          Nikmati Kelezatan Kue Artisan yang Selalu Segar dari Dapur Kami.
+        </h2>
+<p class="font-body-lg text-body-lg text-primary-fixed-dim mb-8 leading-relaxed">
+          Jangan lewatkan cita rasa kue tradisional dan brownies premium yang dibuat dengan sepenuh hati. Pesan langsung hari ini dan rasakan pengalaman belanja kue modern termudah.
+        </p>
+<!-- CTA Action Cluster -->
+<div class="flex flex-wrap items-center gap-4">
+<a class="px-8 py-4 rounded-full bg-secondary-container text-on-secondary-container font-label-lg text-label-lg font-bold shadow-md hover:bg-secondary-fixed transition-all inline-flex items-center gap-2" href="https://t.me/cabakery_bot" rel="noopener noreferrer" target="_blank">
+<span>Mulai Pesan Sekarang • Diskon 15%</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+<a class="px-7 py-4 rounded-full bg-surface/10 hover:bg-surface/20 text-on-primary font-label-lg text-label-lg font-semibold transition-all inline-flex items-center gap-2 backdrop-blur" href="https://t.me/cabakery_bot" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">smart_toy</span>
+<span>Tanya Menu di Telegram Bot</span>
+</a>
+</div>
+<p class="mt-6 text-on-primary-container font-label-sm text-label-sm flex items-center gap-2">
+<span class="material-symbols-outlined text-[16px]">lock</span>
+          Pembayaran aman via QRIS, GoPay, OVO &amp; Transfer Bank. Garansi uang kembali jika kue tidak segar saat tiba.
+        </p>
+</div>
+</div>
+</section>
+<!-- Micro-script for accordion interactivity -->
+<script>
+    function toggleFaq(id) {
+      const target = document.getElementById(id);
+      const icon = document.getElementById(id + '-icon');
+      if (target.classList.contains('hidden')) {
+        target.classList.remove('hidden');
+        icon.classList.add('rotate-180');
+      } else {
+        target.classList.add('hidden');
+        icon.classList.remove('rotate-180');
+      }
+    }
+  </script>
+</div></main><footer class="w-full bg-surface-container-low"><div class="max-w-[1200px] mx-auto px-6 lg:px-12 py-space-3xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10"><div class="lg:col-span-5 flex flex-col gap-4"><div class="flex items-center gap-3"><img alt="Artisan bakery logo mark featuring a warm golden croissant and wheat ear combined with a subtle Telegram paper plane or smart spark icon, minimalist, warm amber and terracotta tones, clean circular badge outline. Design context: - Primary color: #8a4b1a - Font: plusJakartaSans - Mode: light - Roundness: rounded-md . The logo should be visually consistent with these brand tokens." class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1UBexEdNh4R02gyQnHYNbcJ7vAjU7rgsDYq8k35GiBADyNneJne744SAUb3FL__oQXI4akWsA60tpLnS7Bj1bcvgJOpHQTl0rY3V0ABVrHWlis9BBQIx9xzoakK-6-1jAlTtA2eU-LMMtZJvPlexQZ-_QeYdrJwXmUrK8W3qOheGmOQY-2pE3IkdRyNRd6zUlqL6cGuOVAtp_UHNihidnachKvV540gxEmdSem-tzaGP9hYqYhgNAG7qg"/><span class="font-title-md text-title-md text-primary font-bold">Ca’Bakery</span></div><p class="font-body-md text-body-md text-on-surface-variant max-w-md">Menyajikan roti dan kue artisan berkelas dengan ragi alami pilihan, disempurnakan oleh presisi teknologi kecerdasan buatan dan pemesanan pintar via bot Telegram.</p><div class="flex items-center gap-2 mt-2"><span class="px-3 py-1 rounded-full font-label-md text-label-md bg-secondary-container text-on-secondary-container">Fresh Daily</span><span class="px-3 py-1 rounded-full font-label-md text-label-md bg-tertiary-fixed text-on-tertiary-fixed">AI Fermentation Control</span></div></div><div class="lg:col-span-2 flex flex-col gap-3"><span class="font-label-lg text-label-lg text-primary uppercase tracking-wider">Navigasi</span><nav class="flex flex-col gap-2.5"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="tentang-kami" href="#">Tentang Kami</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="menu-kue-artisan" href="#">Menu Kue Artisan</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="teknologi-ai-dan-bot" href="#">Teknologi AI &amp; Bot</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="ulasan-pelanggan" href="#">Ulasan Pelanggan</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="faq" href="#">FAQ</a></nav></div><div class="lg:col-span-2 flex flex-col gap-3"><span class="font-label-lg text-label-lg text-primary uppercase tracking-wider">Saluran Pesan</span><div class="flex flex-col gap-2.5 font-body-sm text-body-sm text-on-surface-variant"><a class="hover:text-on-surface transition-colors" href="https://t.me/cabakery_bot" rel="noopener noreferrer" target="_blank">Telegram: @cabakery_bot</a><a class="hover:text-on-surface transition-colors" href="#">WhatsApp Concierge</a><a class="hover:text-on-surface transition-colors" data-path="pesan-kue-sekarang" href="#">Pemesanan Online</a><a class="hover:text-on-surface transition-colors" href="#">B2B &amp; Catering</a></div></div><div class="lg:col-span-3 flex flex-col gap-3"><span class="font-label-lg text-label-lg text-primary uppercase tracking-wider">Jam Operasional</span><div class="flex flex-col gap-1.5 font-body-sm text-body-sm text-on-surface-variant"><p>Senin – Sabtu: 07.00 – 21.00 WIB</p><p>Minggu: 08.00 – 19.00 WIB</p><p class="mt-2 text-on-surface font-title-sm text-title-sm">Studio Dapur Utama</p><p>Jl. Senopati No. 42, Kebayoran Baru, Jakarta Selatan</p></div></div></div><div class="mt-space-2xl pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 font-body-sm text-body-sm text-on-surface-variant"><p>© 2025 Ca’Bakery Indonesia. All rights reserved. Artisan Craft with AI Intelligence.</p><div class="flex items-center gap-6"><a class="hover:text-on-surface transition-colors" href="#">Kebijakan Privasi</a><a class="hover:text-on-surface transition-colors" href="#">Syarat Layanan</a></div></div></div></footer></body></html>
